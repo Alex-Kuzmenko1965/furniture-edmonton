@@ -41,18 +41,4 @@ export const galleryItems = [
       './images/06.jpeg',
     description: 'Comments6',
   },
-  {
-    preview:
-      '../src/images/07.jpeg',
-    original:
-      '../src/images/07.jpeg',
-    description: 'Comments7',
-  },
-  {
-    preview:
-      '../src/images/08.jpeg',
-    original:
-      '../src/images/08.jpeg',
-    description: 'Comments8',
-  },
 ];
