@@ -43,65 +43,129 @@ export const galleryItems = [
 	},
 	{
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820__480.jpg',
+      './images/07.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820_1280.jpg',
-    description: 'Hokkaido Flower',
+      './images/07.jpeg',
+    description: 'Comments7',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677__340.jpg',
+      './images/08.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_1280.jpg',
-    description: 'Container Haulage Freight',
+      './images/08.jpeg',
+    description: 'Comments8',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785__340.jpg',
+      './images/09.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785_1280.jpg',
-    description: 'Aerial Beach View',
+      './images/09.jpeg',
+    description: 'Comments9',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2016/11/18/16/19/flowers-1835619__340.jpg',
+      './images/10A.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2016/11/18/16/19/flowers-1835619_1280.jpg',
-    description: 'Flower Blooms',
+      './images/10A.jpeg',
+    description: 'Comments10A',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2018/09/13/10/36/mountains-3674334__340.jpg',
+      './images/10B.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2018/09/13/10/36/mountains-3674334_1280.jpg',
-    description: 'Alpine Mountains',
+      './images/10B.jpeg',
+    description: 'Comments10B',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/16/23/04/landscape-4208571__340.jpg',
+      './images/11.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/16/23/04/landscape-4208571_1280.jpg',
-    description: 'Mountain Lake Sailing',
+      './images/11.jpeg',
+    description: 'Comments11',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/17/09/27/the-alps-4209272__340.jpg',
+      './images/12.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/17/09/27/the-alps-4209272_1280.jpg',
-    description: 'Alpine Spring Meadows',
+      './images/12.jpeg',
+    description: 'Comments12',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/16/21/10/landscape-4208255__340.jpg',
+      './images/13.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/16/21/10/landscape-4208255_1280.jpg',
-    description: 'Nature Landscape',
+      './images/13.jpeg',
+    description: 'Comments13',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843__340.jpg',
+      './images/14.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843_1280.jpg',
-    description: 'Lighthouse Coast Sea',
+      './images/14.jpeg',
+    description: 'Comments14',
   },
+  {
+    preview:
+      './images/15.jpeg',
+    original:
+      './images/15.jpeg',
+    description: 'Comments15',
+  },
+  {
+    preview:
+      './images/16.jpeg',
+    original:
+      './images/16.jpeg',
+    description: 'Comments16',
+  },
+  {
+    preview:
+      './images/17.jpeg',
+    original:
+      './images/17.jpeg',
+    description: 'Comments17',
+  },
+  {
+    preview:
+      './images/18.jpeg',
+    original:
+      './images/18.jpeg',
+    description: 'Comments18',
+  },
+  {
+    preview:
+      './images/19.jpeg',
+    original:
+      './images/19.jpeg',
+    description: 'Comments19',
+  },
+  {
+    preview:
+      './images/20A.jpeg',
+    original:
+      './images/20A.jpeg',
+    description: 'Comments20A',
+  },
+  {
+    preview:
+      './images/20B.jpeg',
+    original:
+      './images/20B.jpeg',
+    description: 'Comments20B',
+  },
+  {
+    preview:
+      './images/21.jpeg',
+    original:
+      './images/21.jpeg',
+    description: 'Comments21',
+  },
+  {
+    preview:
+      './images/22.jpeg',
+    original:
+      './images/22.jpeg',
+    description: 'Comments22',
+  },
+  
 ];
