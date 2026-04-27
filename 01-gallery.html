@@ -5,16 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Image gallery</title>
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">    
+		<link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css">
+		<link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
-    <p><a href="index.html">Go back</a></p>
-
+    <!-- Шапка сторінки -->
+		<header class="header">
+			<nav class="container header__main-nav">
+				<a class="header__logo link" href="./">
+					<span class="header__logo--cyan">Furniture</span>Studio
+				</a>
+			</nav>
+		</header>
     <!-- Add gallery items to this list -->
-    <ul class="gallery"></ul>      
-    
+    <main>
+			<ul class="gallery"></ul>      
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
     <script src="js/01-gallery.js" type="module"></script>
   </body>
