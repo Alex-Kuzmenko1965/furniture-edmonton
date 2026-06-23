@@ -164,7 +164,7 @@ body {
 .footer__item {
   margin-bottom: 32px;
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 380px) {
   .footer__item {
     margin-bottom: 0;
   }
