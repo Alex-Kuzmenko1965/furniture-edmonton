@@ -112,7 +112,7 @@ body {
 }
 @media (min-width: 450px) {
 	.header__second-nav {
-		justify-content: space-between;
+		justify-content: center;
 	}
 }
 @media (min-width: 768px) {
@@ -164,7 +164,7 @@ body {
 .footer__item {
   margin-bottom: 32px;
 }
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 480px) {
   .footer__item {
     margin-bottom: 0;
   }
