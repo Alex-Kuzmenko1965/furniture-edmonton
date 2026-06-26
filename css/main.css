@@ -71,6 +71,34 @@ body {
     width: 1200px;
   }
 }
+.header__logo {
+	width: 280px;
+	margin: 20px auto 10px;
+}
+@media screen and (min-width: 450px) {
+	.header__logo {
+		width: 300px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.header__logo {
+		width: 350px;
+		margin: 30px auto 15px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.header__logo {
+		width: 450px;
+		margin: 40px auto 20px;
+	}
+}
+
+.header__logo:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
 
 .btn {
 	margin: auto;
@@ -120,161 +148,10 @@ body {
 		justify-content: center;
 	}
 }
-.header__logo {
-  margin: 16px 0;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-  transition: color 250ms var(--timing-function);
-}
 
 .header__logo:hover, .header__logo:focus {
   color: var(--accent-color);
   transition: color 250ms var(--timing-function);
-}
-.header__logo--cyan {
-  color: var(--accent-color);
-}
-
-.menu-toggle {
-  min-height: 30px;
-  min-width: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  background-color: transparent;
-  border: none;
-}
-@media (min-width: 767px) {
-  .menu-toggle {
-    display: block;
-  }
-}
-.menu-toggle:hover, .menu-toggle:focus svg {
-  fill: var(--accent-color);
-  transition: fill 250ms --timing-function;
-}
-
-.footer__item {
-  margin-bottom: 32px;
-}
-@media screen and (min-width: 480px) {
-  .footer__item {
-    margin-bottom: 0;
-  }
-}
-
-@media screen and (min-width: 768px) {
-	.footer__item {
-		margin-bottom: 0;
-	}
-}
-
-
-@media screen and (min-width: 480px) {
-  .footer__auth {
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-top: 0;
-  }
-  .footer__auth .footer__item {
-    margin: 10px 50px;
-  }
-  .footer__auth .footer__auth-mail,
-.footer__auth .footer__auth-tel {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-size: 16px;
-  }
-}
-@media screen and (min-width: 768px) {
-	.footer__auth {
-		flex-direction: column;
-		justify-content: flex-end;
-		padding-top: 0;
-	}
-
-	.footer__auth .footer__item {
-		margin: 10px 50px;
-	}
-
-	.footer__auth .footer__auth-mail,
-	.footer__auth .footer__auth-tel {
-		padding-top: 5px;
-		padding-bottom: 5px;
-		font-size: 16px;
-	}
-}
-@media screen and (min-width: 1200px) {
-  .footer__auth {
-    display: flex;
-    align-items: baseline;
-    flex-direction: row;
-  }
-  .footer__auth .footer__item:last-child {
-    margin-left: 50px;
-  }
-  .footer__auth .footer__auth-mail,
-.footer__auth .footer__auth-tel {
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-}
-
-.footer__auth-mail:hover,
-.footer__auth-mail:focus,
-.footer__auth-tel:hover,
-.footer__auth-tel:focus {
-  color: var(--accent-color);
-  font-size: 16px;
-}
-
-.footer__auth-mail,
-.footer__auth-tel {
-  font-weight: 200;
-  font-size: 16px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--light-color);
-  transition: color 250ms var(--timing-function);
-}
-
-.footer__auth-mail-icon {
-  margin-right: 10px;
-  fill: currentColor;
-  transition: fill 250ms var(--timing-function);
-}
-
-.footer__auth-tel-icon {
-  margin-right: 10px;
-  fill: currentColor;
-  transition: fill 250ms var(--timing-function);
-}
-
-.menu-container .menu-toggle {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-}
-
-.menu-toggle svg {
-  width: 30px;
-}
-@media screen and (min-width: 768px) {
-  .menu-toggle {
-    display: none;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .menu-toggle {
-    display: none;
-  }
 }
 
 .hero {
@@ -348,6 +225,9 @@ body {
   display: block;
   width: 100%;
   margin: 0 auto;
+	display: inline-flex;
+		flex-wrap: wrap;
+		justify-content: center;
 }
 @media screen and (min-width: 480px) {
   .footer__container {
@@ -376,33 +256,111 @@ body {
   margin-bottom: 60px;
 }
 
-@media screen and (min-width: 1200px) {
+.footer__item {
+	margin-bottom: 10px auto;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1000px) {
   .footer__block {
     margin: 0 auto;
   }
 }
 
-.modal__close {
-  position: absolute;
-  padding: 0;
-  top: 8px;
-  right: 8px;
-  border: var(--light-color);
+.footer__auth .footer__auth-mail,
+.footer__auth .footer__auth-tel {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 14px;
+	flex-direction: column;
+	justify-content: flex-end;
 }
 
-.modal__close {
-  width: 30px;
-  height: 30px;
-  padding: 6px;
-  outline: none;
+@media screen and (min-width: 480px) {
+	.footer__auth {
+		flex-direction: column;
+		justify-content: flex-end;
+		padding-top: 0;
+	}
+
+	.footer__auth .footer__item {
+		margin: 10px auto;
+	}
+
+	.footer__auth .footer__auth-mail,
+	.footer__auth .footer__auth-tel {
+		padding-top: 3px;
+		padding-bottom: 3px;
+		font-size: 14px;
+	}
 }
 
-.close-icon {
-  background-color: transparent;
-  fill: var(--title-text-color);
+@media screen and (min-width: 768px) {
+	.footer__auth {
+		flex-direction: column;
+		justify-content: flex-end;
+		padding-top: 0;
+	}
+
+	.footer__auth .footer__item {
+		margin: 10px 50px;
+	}
+
+	.footer__auth .footer__auth-mail,
+	.footer__auth .footer__auth-tel {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 16px;
+	}
 }
-.close-icon:hover, .close-icon:focus {
-  fill: var(--accent-color);
+
+@media screen and (min-width: 1200px) {
+	.footer__auth {
+		display: flex;
+		align-items: baseline;
+		flex-direction: row;
+	}
+
+	.footer__auth .footer__item:last-child {
+		margin-left: 50px;
+	}
+
+	.footer__auth .footer__auth-mail,
+	.footer__auth .footer__auth-tel {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+}
+
+.footer__auth-mail:hover,
+.footer__auth-mail:focus,
+.footer__auth-tel:hover,
+.footer__auth-tel:focus {
+	color: var(--accent-color);
+	font-size: 14px;
+}
+
+.footer__auth-mail,
+.footer__auth-tel {
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--light-color);
+	transition: color 250ms var(--timing-function);
+}
+
+.footer__auth-mail-icon {
+	margin-right: 10px;
+	fill: currentColor;
+	transition: fill 250ms var(--timing-function);
+}
+
+.footer__auth-tel-icon {
+	margin-right: 10px;
+	fill: currentColor;
+	transition: fill 250ms var(--timing-function);
 }
 .gallery {
 	display: grid;
