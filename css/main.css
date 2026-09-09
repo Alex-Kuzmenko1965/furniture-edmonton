@@ -56,48 +56,51 @@ body {
 	padding: 0 15px;
   margin: 0 auto;
 }
+
 @media screen and (min-width: 450px) {
   .container {
     width: 450px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
   }
 }
+
 .header__logo {
 	width: 280px;
 	margin: 20px auto 10px;
 }
+
+.header__logo:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
 @media screen and (min-width: 450px) {
 	.header__logo {
 		width: 300px;
 	}
 }
-
 @media screen and (min-width: 768px) {
 	.header__logo {
 		width: 350px;
 		margin: 30px auto 15px;
 	}
 }
-
 @media screen and (min-width: 1200px) {
 	.header__logo {
 		width: 450px;
 		margin: 40px auto 20px;
 	}
-}
-
-.header__logo:hover {
-	opacity: 0.5;
-	cursor: pointer;
 }
 
 .btn {
@@ -125,49 +128,20 @@ body {
   color: var(--title-text-color);
 }
 
-.header {
-  border-bottom: 1px solid var(--border-color);
-  background-color: var(--light-color);
-}
-.header__main-nav {
-  display: flex;
-  align-items: center;
-	justify-content: center;
-}
-.header__second-nav {
-	display: flex;
-	align-items: center;
-}
-@media (min-width: 450px) {
-	.header__second-nav {
-		justify-content: center;
-	}
-}
-@media (min-width: 768px) {
-	.header__second-nav {
-		justify-content: center;
-	}
-}
-
-.header__logo:hover, .header__logo:focus {
-  color: var(--accent-color);
-  transition: color 250ms var(--timing-function);
-}
 
 .hero {
 	max-width: 1600px;
-	background-image: url("../images/img-fon-mob.jpg");
+	background-image: url("../images/img-fon-desctop.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	
 }
 
-.hero__container {
-	background: rgba(47, 48, 58, 0.4);
-	margin: 0 auto;
-	padding: 120px 0;
-}
+@media screen and (min-width: 480px) {
+	.hero {
+		background-image: url("../images/img-fon-mob.jpg");
+	}
 
 @media screen and (min-width: 768px) {
 	.hero {
@@ -179,18 +153,19 @@ body {
 	.hero {
 		background-image: url("../images/img-fon-desctop.jpg");
 	}
-
-	.hero__container {
-		padding: 100px 0;
-	}
+}
+.hero__container {
+	background: rgba(47, 48, 58, 0.4);
+	margin: 0 auto;
+	padding: 120px 0;
 }
 
 .hero__title {
 	display: block;
-	max-width: 400px;
+	max-width: 420px;
 	margin: 0 auto 30px;
 	font-weight: 900;
-	font-size: 26px;
+	font-size: 32px;
 	line-height: 1.36;
 	text-align: center;
 	letter-spacing: 0.06em;
@@ -198,7 +173,7 @@ body {
 	color: var(--light-color);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
 	.hero__title {
 		max-width: 700px;
 		font-size: 44px;
@@ -207,10 +182,10 @@ body {
 
 .hero__subtitle {
 	display: block;
-	max-width: 400px;
+	max-width: 420px;
 	margin: 30px auto 10px;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 24px;
 	line-height: 1.36;
 	text-align: center;
 	letter-spacing: 0.06em;
@@ -243,18 +218,7 @@ body {
 		justify-content: center;
 	}
 }
-@media screen and (min-width: 1200px) {
-  .footer__container {
-    display: flex;
-    align-items: baseline;
-  }
-}
-.footer__block {
-  display: block;
-}
-.footer__block:not(:last-child) {
-  margin-bottom: 60px;
-}
+
 
 .footer__item {
 	margin-bottom: 10px auto;
@@ -262,11 +226,7 @@ body {
 	margin-bottom: 10px;
 }
 
-@media screen and (min-width: 1000px) {
-  .footer__block {
-    margin: 0 auto;
-  }
-}
+
 
 .footer__auth .footer__auth-mail,
 .footer__auth .footer__auth-tel {
@@ -304,7 +264,7 @@ body {
 	}
 
 	.footer__auth .footer__item {
-		margin: 10px 50px;
+		margin: 10px 40px;
 	}
 
 	.footer__auth .footer__auth-mail,
@@ -362,6 +322,16 @@ body {
 	fill: currentColor;
 	transition: fill 250ms var(--timing-function);
 }
+
+.footer__author {
+	margin: 30px auto;
+	font-weight: 200;
+	font-size: 12px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--light-color);
+}
+
 .gallery {
 	display: grid;
 	max-width: 1200px;
