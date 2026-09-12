@@ -1,10 +1,12 @@
-import { galleryItems } from './gallery-items.js';
+import { galleryItems } from "./gallery-items.js";
 // console.log(galleryItems);
 
-const ulEl = document.body.querySelector('.gallery');
+const ulEl = document.body.querySelector(".gallery");
 // console.log(ulEl);
 
-const markup = `${galleryItems.map(({ preview, original, description }) => `<li class="gallery__item">
+const markup = `${galleryItems
+  .map(
+    ({ preview, original, description }) => `<li class="gallery__item">
   <a class="gallery__link" href="${original}">
       <img
         class="gallery__image"
@@ -12,11 +14,15 @@ const markup = `${galleryItems.map(({ preview, original, description }) => `<li 
         alt="${description}"
       />
     </a>
-  </li>`).join('')}`;
+  </li>`,
+  )
+  .join("")}`;
 // console.log(markup);
 
 ulEl.innerHTML = markup;
 
-var lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', 
-captionPosition: 'button',
-captionDelay: 250,});
+var lightbox = new SimpleLightbox(".gallery a", {
+  captionsData: "alt",
+  captionPosition: "button",
+  captionDelay: 250,
+});
