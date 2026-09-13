@@ -1,15 +1,19 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://alex-kuzmenko1965.github.io/furniture-edmonton/</loc>
+	<loc>https://alex-kuzmenko1965.github.io/furniture-edmonton/</loc>
+	<lastmod>2026-09-13T22:51:14+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>
-https://alex-kuzmenko1965.github.io/furniture-edmonton/portfolio/
-</loc>
+	<loc>https://alex-kuzmenko1965.github.io/furniture-edmonton/portfolio/</loc>
+	<lastmod>2026-09-13T22:51:14+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>
-https://alex-kuzmenko1965.github.io/furniture-edmonton/index/
-</loc>
+	<loc>hhttps://alex-kuzmenko1965.github.io/furniture-edmonton/sitemap/</loc>
+	<lastmod>2026-09-13T22:51:14+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 </urlset>
