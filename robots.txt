@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Блокування технічних папок та файлів (якщо вони є)
+Disallow: /node_modules/
+Disallow: /README.md
+Disallow: /LICENSE
+
+# Вкажіть шлях до вашої карти сайту (замініть на ваше посилання)
+Sitemap: https://alex-kuzmenko1965.github.io/furniture-edmonton/
