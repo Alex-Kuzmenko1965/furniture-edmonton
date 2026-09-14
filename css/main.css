@@ -182,7 +182,6 @@ body {
 }
 
 .hero__subtitle {
-  display: block;
   max-width: 400px;
   margin: 30px auto 10px;
   font-weight: 400;
@@ -322,7 +321,6 @@ body {
 }
 
 .footer__author {
-	display: block;
 	text-align: center;
   margin: 20px auto;
   font-weight: 200;
