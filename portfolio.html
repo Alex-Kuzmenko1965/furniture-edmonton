@@ -3,7 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Основні SEO-теги -->
+    <link rel="icon" type="png" href="./images/favicon_FEU.png" />
+    <title>Examples of custom kitchen projects</title>
+    <meta
+      name="description"
+      content="Examples of kitchen cabinet manufacturing and installation in Edmonton"
+    />
+    <meta name="keywords" content="kitchen, bathroom, cabinet, furniture" />
+    <link
+      rel="canonical"
+      href="https://alex-kuzmenko1965.github.io/furniture-edmonton/portfolio"
+    />
+
+    <!-- Налаштування для соцмереж (Open Graph) — щоб сайт гарно виглядав у Telegram, Facebook, Viber -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Examples of custom kitchen projects" />
+    <meta
+      property="og:description"
+      content="Examples of kitchen cabinet manufacturing and installation in Edmonton"
+    />
+    <meta
+      property="og:url"
+      content="https://alex-kuzmenko1965.github.io/furniture-edmonton/portfolio"
+    />
+    <meta
+      property="og:image"
+      content="https://alex-kuzmenko1965.github.io/furniture-edmonton/images/favicon_FEU.png"
+    />
+
+    <!-- Керування роботами (робить те саме, що й robots.txt, але на рівні сторінки) -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Підключення шрифтів і таблиць стилів -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,14 +51,22 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- style for basicLightbox -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
     />
-		<link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="icon" type="png" href="./images/favicon_FEU.png" />
-    <title>Portfolio</title>
+
+    <!-- власник сайту для пошукових ботів -->
+    <meta
+      name="google-site-verification"
+      content="1IpUi0H_CTU0rJQ6b5tpK4TL1Oi71OwVbITCyDbiRz4"
+    />
+    <meta name="msvalidate.01" content="A03BE5A56C8EDAA6FA0A007B30262018" />
   </head>
   <body>
     <!-- Шапка сторінки -->
@@ -43,13 +85,11 @@
     </main>
     <!-- FOOtER-->
     <footer class="footer">
+      <p class="hero__subtitle" style="font-size: 20px">
+        <b>Contact Us</b>
+      </p>
       <div class="footer__container">
         <ul class="footer__auth list">
-          <li class="footer__item">
-            <p class="hero__subtitle" style="font-size: 20px">
-              <b>Contact Us</b>
-            </p>
-          </li>
           <li class="footer__item">
             <a class="footer__auth-tel link" href="tel:+17808840920">
               <svg width="10" height="16" class="footer__auth-tel-icon">
@@ -77,11 +117,9 @@
               viber: message
             </a>
           </li>
-          <li class="footer__item">
-            <p class="footer__author">&copy; Alex Kuzmenko, 2026</p>
-          </li>
         </ul>
       </div>
+      <p class="footer__author">&copy; Alex Kuzmenko, 2026</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
     <script src="js/01-gallery.js" type="module"></script>

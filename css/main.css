@@ -322,7 +322,9 @@ body {
 }
 
 .footer__author {
-  margin: 30px auto;
+	display: block;
+	text-align: center;
+  margin: 20px auto;
   font-weight: 200;
   font-size: 12px;
   line-height: 1.14;
